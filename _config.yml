@@ -31,6 +31,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+#分页
+gems: [jekyll-paginate,pager,pagination]
+
+paginate: 7   #显示列表的数目
+paginate_path: "blog/page:num"  #分页
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
