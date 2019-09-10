@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: OperonTop
-email: 
+email: operontop@gmail.com
 description: Work for cause, not for applause.Live life to express, not to impress
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://operon.top/
@@ -31,11 +31,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-#分页
-gems: [jekyll-paginate,pager,pagination]
-
-paginate: 7   #显示列表的数目
-paginate_path: "blog/page:num"  #分页
 
 # Exclude from processing.
 # The following items will not be processed, by default.
